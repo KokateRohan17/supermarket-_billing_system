@@ -26,14 +26,14 @@ public class main {
         System.out.println("Date: "+(obj)+"  "+days[calendar.get(Calendar.DAY_OF_WEEK) - 1]);
 		
         System.out.println("///////////////////////////////////////******************************************///////////////////////////////////");
-        
+        while(true){
         System.out.println("1.Create New List");
 		System.out.println("2.Update List");
 		System.out.println("3.Delate List");
 		System.out.println("4.Search By ID");
 		System.out.println("5.Show All List");
-		
-		
+	        
+	
 		System.out.println("Enter Your Choice");
 		int Choice=sc.nextInt();
 		int id;
@@ -125,7 +125,8 @@ public class main {
 	  		
 	  		break;
 
-
+		
+		    }
 		}
 		
 		
